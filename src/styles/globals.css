@@ -28,6 +28,8 @@ body {
   --vf-radius: 12px;
 }
 
-::-webkit-scrollbar { width: 4px; }
+/* Scrollbar plus visible */
+::-webkit-scrollbar { width: 8px; height: 8px; }
 ::-webkit-scrollbar-track { background: #0d1117; }
-::-webkit-scrollbar-thumb { background: #1e2a3a; border-radius: 4px; }
+::-webkit-scrollbar-thumb { background: #2563eb; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #3b82f6; }
